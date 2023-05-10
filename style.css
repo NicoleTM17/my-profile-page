@@ -4,7 +4,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     color:#7D8F69;
-    background-color: #6D8B74;
+    /* background-color: #6D8B74; */
+    background: linear-gradient(108.9deg, rgb(163, 217, 221) 10.4%, rgb(174, 250, 182) 56.2%, rgb(238, 243, 220) 86.1%);
     padding: 15px;
 }
 
