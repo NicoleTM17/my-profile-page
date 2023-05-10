@@ -3,14 +3,33 @@ body {
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    color:#7D8F69;
-    /* background-color: #6D8B74; */
-    background: linear-gradient(108.9deg, rgb(163, 217, 221) 10.4%, rgb(174, 250, 182) 56.2%, rgb(238, 243, 220) 86.1%);
+    /* color:#7D8F69; */
+    color: #537188;
+    /* background: linear-gradient(108.9deg, rgb(163, 217, 221) 10.4%, rgb(174, 250, 182) 56.2%, rgb(238, 243, 220) 86.1%); */
     padding: 15px;
+    /* added */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+	  height: 100vh;
+}
+
+/* added */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 strong:hover{
-  color:#99A98F;
+  /* color:#99A98F; */
+  color: #AFD3E2;
 }
 
 .image-circle{
@@ -36,7 +55,8 @@ h2{
     padding: 40px;
     margin: 30px auto;
     width: auto;
-    border: 5px solid #99A98F;
+    /* border: 5px solid #99A98F; */
+    border: 5px solid #537188;
     border-radius: 10px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
     padding-bottom: 60px;
@@ -45,10 +65,12 @@ h2{
 #linkedin-button{
     text-decoration: none;
     color: white;
-    border:1px solid #99A98F;
+    /* border:1px solid #99A98F; */
+    border: 1px solid #99A98F;
     padding: 25px 25px;
     border-radius: 10px;
-    background-color: #99A98F;
+    /* background-color: #99A98F; */
+    background-color: #537188;
     font-weight: bold;
     margin: 20px;
     cursor: pointer;
@@ -57,8 +79,10 @@ h2{
 
 #linkedin-button:hover{
     background-color: white;
-    color:#99A98F;
-    border:3px solid #99A98F;
+    /* color:#99A98F; */
+    color:#537188;
+    /* border:3px solid #99A98F; */
+    border: 3px solid #AFD3E2;
     font-weight: bold;
 }
 
@@ -66,19 +90,22 @@ h2{
    padding: 40px;
    margin: 0 auto;
    width: auto;
-   border: 5px solid #99A98F;
+   /* border: 5px solid #99A98F; */
+   border: 5px solid #537188;
    border-radius: 10px;
    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
    padding-bottom: 20px;
 }
 .socials-icons > a{
     text-decoration: none;
-    color: #557153;
+    /* color: #557153; */
+    color:#537188;
     display:inline;
     font-size: 40px;
 }
 .socials-icons > a:hover {
-    color: #99A98F;
+    /* color: #99A98F; */
+    color:#AFD3E2;
 }
 
 
@@ -88,7 +115,8 @@ h2{
       margin: 0 auto;
       display: block;
       padding: 60px;
-      border: 5px solid #6D8B74;
+      /* border: 5px solid #6D8B74; */
+      border: 5px solid #537188;
       border-radius: 20px;
       background: white;
 }
